@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <h1>Kosuke Uematsu</h1>
+          <div class="header_menu">
+            <nav>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+          <section  id="about">
+            <h2 class="title">About</h2>
+            <div class="about_area">
+                <div class="about_area-img">
+                  <img src="img/pine.jpg" alt="自己紹介画像">
+                </div>
+
+             <div class="about_area-description">
+                <div class="about_area-description-text text">
+                  ノマドな海外生活目指してプログラミング学習中。ノマドな海外生活目指してプログラミング学習中。ノマドな海外生活目指してプログラミング学習中。ノマドな海外生活目指してプログラミング学習中。ノマドな海外生活目指してプログラミング学習中。ノマドな海外生活目指してプログラミング学習中。
+                </div>
+                <div class="about_area-description-icon">
+                  <a href="https://twitter.com/home">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="youtube">
+                    <i class="fab fa-youtube-square"></i>
+                  </a>
+                  <a href="https://slowdown-please.com/">
+                    <i class="fas fa-blog"></i>
+                  </a>
+
+                </div>
+             </div>
+          </div>
+          </section>
+
+<!-- <Service> -->
+
+          <section id="service">
+            <h2 class="title">Service</h2>
+            <div class="row">
+              <div class="col-md-4  col-xs-12">
+                <h3>Codeing</h3>
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <p class="text">
+                  HTML,CSS,Bootstrap,Word Pressでのブログ運営が可能です。
+                </p>
+              </div>
+
+              <div class="col-md-4  col-xs-12">
+                <h3>Codeing</h3>
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <p class="text">
+                  HTML,CSS,Bootstrap,Word Pressでのブログ運営が可能です。
+                </p>
+              </div>
+
+              <div class="col-md-4  col-xs-12">
+                <h3>Codeing</h3>
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+                <p class="text">
+                  HTML,CSS,Bootstrap,Word Pressでのブログ運営が可能です。
+                </p>
+              </div>
+            </div>
+
+          </section>
+
+<!-- <works> -->
+          <section id="works">
+            <h2 class="title">Works</h2>
+            <div class="row">
+              <div class="col-md-4  col-xs-12">
+                <img src="img/gremlin.jpeg" alt="">
+              </div>
+              <div class="col-md-4  col-xs-12">
+                <img src="img/llama.jpeg" alt="">
+              </div>
+              <div class="col-md-4  col-xs-12">
+                <img src="img/trance.JPG" alt="">
+              </div>
+              <div class="col-md-4  col-xs-12">
+                <img src="img/mytable.jpeg" alt="">
+              </div>
+              <div class="col-md-4  col-xs-12">
+                <img src="img/departure 最終版.png" alt="">
+              </div>
+              <div class="col-md-4  col-xs-12">
+                <!-- <img src="img/earth.jpg" alt=""> -->
+              </div>
+            </div>
+          </section>
+<!-- <contact> -->
+          <section id="contact">
+            <h2 class="title">Contact</h2>
+            <div class="form">
+              <form class="formrun" action="https://form.run/api/v1/r/378a9qs8jdjy5672c0g1fnm3" method="post">
+                <!-- ↓自由に要素を追加・編集することができます -->
+                <div class="form-content">
+                  <label>お名前</label>
+                  <input name="お名前" type="text">
+                </div>
+              ​
+                <div class="form-content">
+                  <label>メールアドレス [必須]</label>
+                  <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                  <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                </div>
+              ​
+                <div class="form-content">
+                  <label>お問い合わせ [必須]</label>
+                  <textarea rows=10 name="お問い合わせ" data-formrun-required></textarea>
+                  <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+                </div>
+              ​
+                <!-- ボット投稿をブロックするためのタグ -->
+                <div class="_formrun_gotcha">
+                  <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                  <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                  <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                </div>
+              ​
+                <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+              </form>
+            </div>
+
+          </section>
+
+          
+      </div>
+    </main>
+    <footer>
+      &copy; 2020 Kosuke Uematsu
+    </footer>
+</body>
+</html>
